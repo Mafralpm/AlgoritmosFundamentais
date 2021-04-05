@@ -1,0 +1,32 @@
+<script>
+  function contagem1 (){
+    let contador = parseInt(prompt('Ate que numero devo contar?'))
+    let i = 0
+    while(i <= contador){
+      console.log(i)
+      i = i + 1
+    }
+  }
+  function contagem2 (){
+    let contador = parseInt(prompt('Ate que numero devo contar?'))
+    for(let i = 0; i<=contador; i++){
+      console.log(i)
+    }
+  }
+
+  function aprovadoReprovado (){
+    let nota = 0
+
+    for(let i = 0; i<5; i++){
+      nota += parseInt(prompt('Digite sua nota'+ (i + 1)))
+    }
+    let media = nota/5
+    if(media > 7){
+      alert('Aprovado')
+    } else {
+      alert('Reprovado')
+    }
+  }
+
+  aprovadoReprovado()
+</script>

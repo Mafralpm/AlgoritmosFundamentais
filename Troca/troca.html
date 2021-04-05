@@ -1,0 +1,49 @@
+<script>
+  function troca1 (){
+    let a = parseInt(prompt("Digite o valor de a"))
+    let b = parseInt(prompt("Digite o valor de bs"))
+
+    console.log(a, b)
+
+    let troca = 0
+
+    troca = a
+    a = b
+    b = troca
+
+    console.log(a, b)
+  }
+
+  function xicara (){
+    let xicaraA = prompt("Vazia ou Cheia?")
+    let xicaraB = prompt("Vazia ou Cheia?")
+
+    let aux = ''
+
+    aux = xicaraA    
+    xicaraA = xicaraB
+    xicaraB = aux
+
+    console.log(xicaraA, xicaraB)
+  }
+
+  function troca3 (){
+    // a > b > c > a
+    let a = parseInt(prompt("Digite o valor de a"))
+    let b = parseInt(prompt("Digite o valor de b"))
+    let c = parseInt(prompt("Digite o valor de c"))
+    console.log('a '+a, 'b '+b, 'c '+c)
+    let aux = 0
+
+    aux = a
+    a = c
+    c = b
+    b = aux
+    console.log('a '+a, 'b '+b, 'c '+c)
+
+  }
+  // troca()
+  // xicara()
+  troca3()
+</script>
+    
