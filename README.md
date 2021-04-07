@@ -24,8 +24,6 @@ function troca (a, b){
 function contagem (contador){
   while (contador < n){
     contador = contador + 1
-    // contador += 1
-    // contador *= 2
   }
 }
 ```
