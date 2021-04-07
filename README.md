@@ -1,7 +1,7 @@
 # AlgoritmosFundamentais
 Repositório para apresentar os 8 algoritmos fundamentais propostos por R G Dromey. As pastas são divididas pelos algoritmos.
 
-## Troca
+## [Troca](https://github.com/Mafralpm/AlgoritmosFundamentais/tree/main/Troca)
 ```javascript
 function troca (a, b){
   let temporaria = 0
@@ -19,7 +19,7 @@ function troca (a, b){
   a < b < c < d < a
 --------------
 
-## Contagem
+## [Contagem](https://github.com/Mafralpm/AlgoritmosFundamentais/tree/main/Contagem)
 ```javascript
 function contagem (contador){
   while (contador < n){
@@ -33,7 +33,7 @@ function contagem (contador){
 - **(Desafio)** Construa um algoritmo que recebe um numero inteiro, apos receber informe quantos algarismos o número tem.
 --------------
 
-## Somatório
+## [Somatório](https://github.com/Mafralpm/AlgoritmosFundamentais/tree/main/Somatorio)
 ```javascript
 function somatorio (n1, n2){
   let resultado = n1 + n2
